@@ -2,7 +2,6 @@ import argparse
 from evaluate_decoder_only_model import main
 from copy import deepcopy
 
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--ntrain", "-k", type=int, default=5)

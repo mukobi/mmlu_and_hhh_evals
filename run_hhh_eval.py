@@ -8,7 +8,6 @@ if __name__ == "__main__":
     parser.add_argument("--ngpu", "-g", type=int, default=1)
     parser.add_argument("--data_dir", "-d", type=str, default="hhh_data")
     parser.add_argument("--save_dir", "-s", type=str, default="hhh_results")
-    
     parser.add_argument("--models", "-m", nargs="+", required=True)
 
     args = parser.parse_args()
